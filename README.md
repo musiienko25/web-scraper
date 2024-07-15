@@ -10,7 +10,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm start`
+### Back-end
 
-Runs the app in the development mode.\
-Open [(back)](https://github.com/musiienko25/web-scraper-back) to view it in your browser.
+[(back)](https://github.com/musiienko25/web-scraper-back) to view it in your browser.
