@@ -31,7 +31,7 @@ const SearchForm = () => {
           type="text"
           value={id}
           onChange={(e) => setId(e.target.value)}
-          placeholder="Enter Data ID"
+          placeholder="Enter Bid ID"
           className="search-input"
         />
         <button type="submit" className="search-button">
