@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import BidDetails from "../bidDetails/BidDetails"; // Шлях до вашого компонента BidDetails
+import BidDetails from "../bidDetails/BidDetails";
+import "./searchForm.css";
 
 const SearchForm = () => {
   const [id, setId] = useState("");
@@ -25,17 +26,20 @@ const SearchForm = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="search-form">
         <input
           type="text"
           value={id}
           onChange={(e) => setId(e.target.value)}
           placeholder="Enter Data ID"
+          className="search-input"
         />
-        <button type="submit">Search</button>
+        <button type="submit" className="search-button">
+          Search
+        </button>
       </form>
-      {error && <div style={{ color: "red" }}>{error}</div>}
-      {id && <BidDetails id={id} />}{" "}
+      {error && <div className="error-message">{error}</div>}
+      {id && <BidDetails id={id} />}
     </div>
   );
 };
