@@ -22,8 +22,5 @@ const scrapeData = async (id) => {
   }
 };
 
-// Приклад виклику функції з динамічним id
-const dynamicId = "72206"; // Це може бути будь-яке динамічне значення, яке ви отримуєте від користувача або іншим чином.
-scrapeData(dynamicId).then((elementHtml) => {
-  // Додаткова обробка результатів, якщо потрібно
-});
+const dynamicId = "72206";
+scrapeData(dynamicId).then((elementHtml) => {});

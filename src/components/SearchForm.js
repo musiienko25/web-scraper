@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
+import BidDetails from "./BidDetails"; // Шлях до вашого компонента BidDetails
 
 const SearchForm = () => {
   const [id, setId] = useState("");
-  const [elementHtml, setElementHtml] = useState("");
   const [error, setError] = useState("");
 
   const handleSubmit = async (e) => {
@@ -12,12 +12,14 @@ const SearchForm = () => {
       const response = await axios.get(
         `http://localhost:5000/api/scrape?id=${id}`
       );
-      setElementHtml(response.data);
-      setError("");
+      if (response.data.error) {
+        setError(response.data.error);
+      } else {
+        setError("");
+      }
     } catch (error) {
       console.error("Error fetching data:", error);
       setError("Error fetching data. Check console for details.");
-      setElementHtml("");
     }
   };
 
@@ -33,14 +35,7 @@ const SearchForm = () => {
         <button type="submit">Search</button>
       </form>
       {error && <div style={{ color: "red" }}>{error}</div>}
-      <div>
-        {elementHtml && (
-          <div>
-            <h2>Element HTML:</h2>
-            <pre>{elementHtml}</pre>
-          </div>
-        )}
-      </div>
+      {id && <BidDetails id={id} />}{" "}
     </div>
   );
 };
