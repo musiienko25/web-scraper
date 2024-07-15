@@ -6,8 +6,7 @@ For scraping to work, we need to bring up the server, here you can simply check 
 
 ## Вetails of the task on the link
 
-
-
+[Details](https://halved-join-ebd.notion.site/Coding-Challenge-e1bfa4c285024acab83be14eda44dc1e)
 
 In the project directory, you can run:
 
