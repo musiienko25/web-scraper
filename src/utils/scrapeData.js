@@ -21,6 +21,3 @@ const scrapeData = async (id) => {
     return null;
   }
 };
-
-const dynamicId = "72206";
-scrapeData(dynamicId).then((elementHtml) => {});
