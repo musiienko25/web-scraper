@@ -1,9 +1,10 @@
 # Web-scraper
 
+[Link]([https://halved-join-ebd.notion.site/Coding-Challenge-e1bfa4c285024acab83be14eda44dc1e](https://web-scraper-black.vercel.app/))
 
 ## Вetails of the task on the link
 
-[Task](https://halved-join-ebd.notion.site/Coding-Challenge-e1bfa4c285024acab83be14eda44dc1e)
+
 
 
 In the project directory, you can run:
