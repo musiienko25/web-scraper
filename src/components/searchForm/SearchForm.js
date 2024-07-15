@@ -11,7 +11,7 @@ const SearchForm = () => {
     e.preventDefault();
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/scrape?id=${id}`
+        `${process.env.REACT_APP_API_URL}?id=${id}`
       );
       if (response.data.error) {
         setError(response.data.error);
