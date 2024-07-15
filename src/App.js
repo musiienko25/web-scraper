@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import SearchForm from "./components/SearchForm";
+import SearchForm from "./components/searchForm/SearchForm";
 
 function App() {
   return (

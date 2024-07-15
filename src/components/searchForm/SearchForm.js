@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import BidDetails from "./BidDetails"; // Шлях до вашого компонента BidDetails
+import BidDetails from "../bidDetails/BidDetails"; // Шлях до вашого компонента BidDetails
 
 const SearchForm = () => {
   const [id, setId] = useState("");
