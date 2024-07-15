@@ -18,12 +18,11 @@ const BidDetails = ({ id }) => {
     };
 
     fetchBidDetails();
-  }, [id]); // Додано id як залежність useEffect
+  }, [id]);
 
   return (
     <div className="bid-details">
       <div className="html-content">
-        {/* Обгортка у <table> для збереження <td> тегів */}
         <table>
           <thead>
             <tr>
