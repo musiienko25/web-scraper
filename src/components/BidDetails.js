@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./bigDetails.css";
 
 const BidDetails = ({ id }) => {
   const [htmlContent, setHtmlContent] = useState("");
@@ -20,8 +21,11 @@ const BidDetails = ({ id }) => {
   }, [id]);
 
   return (
-    <div>
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+    <div className="bid-details">
+      <div
+        className="html-content"
+        dangerouslySetInnerHTML={{ __html: htmlContent }}
+      />
     </div>
   );
 };
