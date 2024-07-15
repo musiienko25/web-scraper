@@ -13,4 +13,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [back][(back)](https://github.com/musiienko25/web-scraper-back) to view it in your browser.
+Open [(back)](https://github.com/musiienko25/web-scraper-back) to view it in your browser.
