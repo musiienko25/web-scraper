@@ -25,6 +25,21 @@ const BidDetails = ({ id }) => {
       <div className="html-content">
         {/* Обгортка у <table> для збереження <td> тегів */}
         <table>
+          <thead>
+            <tr>
+              {" "}
+              <td>ID</td>
+              <td>title</td>
+              <td>Status</td>
+              <td>Due / Close Date</td>
+              <td>Publish Date UTC-4</td>
+              <td>Main Category</td>
+              <td>Solicitation Type</td>
+              <td>Issuing Agency</td>
+              <td>Bid Holders List</td>
+              <td>eMM ID</td>
+            </tr>
+          </thead>
           <tbody dangerouslySetInnerHTML={{ __html: htmlContent }} />
         </table>
       </div>
