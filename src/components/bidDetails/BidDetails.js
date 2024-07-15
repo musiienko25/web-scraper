@@ -26,17 +26,16 @@ const BidDetails = ({ id }) => {
         <table>
           <thead>
             <tr>
-              {" "}
-              <td>ID</td>
-              <td>title</td>
-              <td>Status</td>
-              <td>Due / Close Date</td>
-              <td>Publish Date UTC-4</td>
-              <td>Main Category</td>
-              <td>Solicitation Type</td>
-              <td>Issuing Agency</td>
-              <td>Bid Holders List</td>
-              <td>eMM ID</td>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Status</th>
+              <th>Due / Close Date</th>
+              <th>Publish Date UTC-4</th>
+              <th>Main Category</th>
+              <th>Solicitation Type</th>
+              <th>Issuing Agency</th>
+              <th>Bid Holders List</th>
+              <th>eMM ID</th>
             </tr>
           </thead>
           <tbody dangerouslySetInnerHTML={{ __html: htmlContent }} />
