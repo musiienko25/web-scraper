@@ -1,6 +1,8 @@
 # Web-scraper
 
-[https://halved-join-ebd.notion.site/Coding-Challenge-e1bfa4c285024acab83be14eda44dc1e](https://web-scraper-black.vercel.app/))
+[Front](https://web-scraper-black.vercel.app/)
+
+For scraping to work, we need to bring up the server, here you can simply check the components themselves.
 
 ## Вetails of the task on the link
 
