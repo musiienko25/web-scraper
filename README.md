@@ -1,6 +1,6 @@
 # Web-scraper
 
-[Front](https://web-scraper-black.vercel.app/)
+[Front-end](https://web-scraper-black.vercel.app/)
 
 For scraping to work, we need to bring up the server, here you can simply check the components themselves.
 
