@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import SearchForm from "./components/SearchForm";
-import BidDetails from "./components/BidDetails";
 
 function App() {
   return (
