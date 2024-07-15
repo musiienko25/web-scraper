@@ -10,7 +10,7 @@ const BidDetails = ({ id }) => {
     const fetchBidDetails = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/scrape?id=${id}`
+          `${process.env.REACT_APP_API_URL}?id=${id}`
         );
         setBidDetails(response.data);
       } catch (error) {
