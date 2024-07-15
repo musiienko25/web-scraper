@@ -19,5 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 [back](https://github.com/musiienko25/web-scraper-back) to view it in your browser.
 
-#### Result
-![web-scaper](https://github.com/user-attachments/assets/ce2c5a65-c68e-4e76-bbec-32b1a582a6f3)
+### Result
+
+https://github.com/user-attachments/assets/31f7ea69-dca8-45ba-baa5-d6f9dd9b82b1
+
+
