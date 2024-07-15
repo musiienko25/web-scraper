@@ -1,5 +1,3 @@
-// BidDetails.js
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./bidDetails.css";
