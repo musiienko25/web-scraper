@@ -15,9 +15,9 @@ const SearchForm = () => {
       );
       if (response.data.error) {
         setError(response.data.error);
-      } else {
-        setError("");
+        return;
       }
+      setError("");
     } catch (error) {
       console.error("Error fetching data:", error);
       setError("Error fetching data. Check console for details.");
